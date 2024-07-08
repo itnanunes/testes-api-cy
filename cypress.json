@@ -1,11 +1,11 @@
 {
-    "baseUrl": "http://localhost:3000/",
+    "baseUrl": "http://localhost:3030/",
     "reporter": "mochawesome",
     "reporterOptions": {
         "reportDir": "mochawesome-report",
         "overwrite": false,
         "reportFileName":"index.html",
-        "html": false,
+        "html": true,
         "json": false
     }
 }
